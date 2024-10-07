@@ -1,11 +1,11 @@
 const express = require('express');
 const fs = require('fs');
-const palyerRoutes = require('./routes/playerRoutes');  // 플레이어 라우트
+const playerRoutes = require('./Routes/PlayerRoutes');  //플레이어 라우트 
 const app = express();
 const port = 4000;
 
 app.use(express.json());
-app.use('/api', palyerRoutes);   // API 라우트 설정
+app.use('/api', playerRoutes);   // API 라우트 설정
 
 const resourceFilePath = 'resources.json';  // 자원 저장 파일 경로
 
