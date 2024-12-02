@@ -156,7 +156,7 @@ MonoBehaviour:
   SendButton: {fileID: 0}
   chatLog: {fileID: 0}
   statusText: {fileID: 0}
-  playerPrefabs: {fileID: 135414258108639892, guid: 81fb8b82b9ecbd944b05b7e93a2d6a36, type: 3}
+  playerPrefab: {fileID: 135414258108639892, guid: 81fb8b82b9ecbd944b05b7e93a2d6a36, type: 3}
 --- !u!4 &1375684980
 Transform:
   m_ObjectHideFlags: 0
