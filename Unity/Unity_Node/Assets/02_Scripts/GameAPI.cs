@@ -5,9 +5,7 @@ using UnityEngine.Networking;
 using System.Text;
 using Newtonsoft.Json;          //JSON 라이브러리 추가
 using System;
-using UnityEngine.Rendering;
-using UnityEditor.Compilation;
-using Unity.VisualScripting;       //Action<> 사용을 위한 네임스페이스 추가
+
 
 public class GameAPI : MonoBehaviour
 {
